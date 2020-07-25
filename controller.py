@@ -217,6 +217,7 @@ class gameController:
         for actor in self.players:
             print(actor.name)
             print('You are left with $', actor.money)
+        input()
 
 
 if __name__ == '__main__':
